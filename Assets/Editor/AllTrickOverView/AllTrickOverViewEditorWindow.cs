@@ -38,7 +38,7 @@ namespace AllTrickOverView
             }
         }
 
-        protected override void OnGUI()
+        protected override void OnImGUI()
         {
             GUILayout.BeginHorizontal();
 
@@ -53,7 +53,7 @@ namespace AllTrickOverView
 
             GUI.color = Color.white;
             GUILayout.EndHorizontal();
-            base.OnGUI();
+            base.OnImGUI();
         }
 
         protected override OdinMenuTree BuildMenuTree()
